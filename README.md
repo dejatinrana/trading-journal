@@ -36,9 +36,25 @@ cd backend
 
 ### 3. Install Dependencies
 
+The backend packages are listed in `backend/requirement.txt` for quick reference:
+
+```text
+bcryptjs@^3.0.3
+cors@^2.8.6
+dotenv@^17.4.2
+express@^5.2.1
+jsonwebtoken@^9.0.3
+mongoose@^9.6.2
+nodemon@^3.1.14
+```
+
+Install them with npm from the `backend` folder:
+
 ```bash
 npm install
 ```
+
+`npm install` reads `backend/package.json` and `backend/package-lock.json`, then downloads the required packages into `backend/node_modules`.
 
 ### 4. Create Environment File
 
