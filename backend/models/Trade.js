@@ -54,6 +54,7 @@ const tradeSchema = new mongoose.Schema(
       quantity: { type: Number, required: true },
       leverage: { type: Number, default: 1 },
       fees: { type: Number, default: 0 },
+      adversePriceMove: { type: Number },
     },
 
     risk: {
