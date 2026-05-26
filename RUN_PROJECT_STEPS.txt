@@ -1,0 +1,38 @@
+Trading Journal - Run Project Steps
+
+Use two terminal windows.
+
+Before starting the backend, make sure MongoDB is running.
+
+Mac with Homebrew:
+brew services start mongodb-community
+
+Terminal 1 - Backend
+
+Directory:
+/Users/jatin/Desktop/Trading Journal/backend
+
+From the Trading Journal project root:
+cd backend
+npm run dev
+
+Backend URL:
+http://127.0.0.1:5001
+
+You should see:
+Trading Journal Backend Running
+
+
+Terminal 2 - Frontend
+
+Directory:
+/Users/jatin/Desktop/Trading Journal/frontend
+
+From the Trading Journal project root:
+cd frontend
+npm run dev
+
+Frontend URL:
+http://127.0.0.1:5173
+
+Open this URL in your browser to use the app.
